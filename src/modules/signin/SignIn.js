@@ -1,4 +1,4 @@
-import React , {useState,useEffect}from 'react';
+import React , {useState}from 'react';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
@@ -30,7 +30,7 @@ const SignIn = () =>{
       return(
        <div>
        <h1>Online Shop</h1>
-        <img url="https://www.onlinelogomaker.com/blog/wp-content/uploads/2017/06/shopping-online.jpg" alt="cart"></img>
+        <img src="https://www.onlinelogomaker.com/blog/wp-content/uploads/2017/06/shopping-online.jpg" alt="cart"></img>
         <h3>Sign in</h3>
         <TextField name="email" id="outlined-basic" label="Outlined" variant="outlined" onChange={inputChange}/>
         <TextField name="password" id="outlined-basic" label="Outlined" variant="outlined" onChange={inputChange}/>
