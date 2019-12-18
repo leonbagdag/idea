@@ -2,15 +2,17 @@ import React , {useState,useEffect}from 'react';
 import Radio from '@material-ui/core/Radio';
 import RadioGroup from '@material-ui/core/RadioGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
-import FormControl from '@material-ui/core/FormControl';
 import FormLabel from '@material-ui/core/FormLabel'
 import Navigatorbar from '../navigatorBar/Navigatorbar';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import Typography from '@material-ui/core/Typography';
+import Container from '@material-ui/core/Container';
 
 const Products=()=>
 {
     return (
         <div>
-        <Navigatorbar/>
+        <Navigatorbar />
         <FormLabel component="Filter">Filter</FormLabel>
         <RadioGroup aria-label="Filter" name="Filter">
           <FormControlLabel value="electornics" control={<Radio />} label="Electornics" />
@@ -24,6 +26,13 @@ const Products=()=>
             label="(Disabled option)"
           />
         </RadioGroup>
+        <React.Fragment>
+      <CssBaseline />
+      <Container maxWidth="sm">
+        <Typography component="div" style={{ backgroundColor: '#000000', height: '80vh' , width:'50vw' }} />
+
+      </Container>
+    </React.Fragment>
         </div>
 
     );
