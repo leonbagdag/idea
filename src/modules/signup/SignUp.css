@@ -1,11 +1,5 @@
-.TFW{
-    width: 400px;
-    
-}
-
-
 .SignUp-Form{
-    margin-top: 64px;
+    margin-top: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;

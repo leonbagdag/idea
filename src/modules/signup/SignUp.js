@@ -32,10 +32,10 @@ const SignUp = () => {
         <img
           src="https://www.onlinelogomaker.com/blog/wp-content/uploads/2017/06/shopping-online.jpg"
           alt="cart"
-          width="250"
-          max-height="50"
+          width="400"
+          max-height="70"
         ></img>
-        <Typography component="h1" variant="h5">
+        <Typography component="h1" variant="h4">
           Sign up
         </Typography>
         <form className={"form"} style={{ marginTop: 24 }}>
