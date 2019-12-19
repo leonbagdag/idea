@@ -2,7 +2,22 @@
     width: 400px;
     
 }
-.grid{
-    padding-bottom: 12px;
- 
+
+
+.SignUp-Form{
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.from{
+    width: 100%;
+    margin-top: 24px;
+    padding-top: 24px;
+}
+.gridC{
+    padding: 8px ;
+}
+.submitBTN{
+    margin: 24px 0px 16px;
 }
