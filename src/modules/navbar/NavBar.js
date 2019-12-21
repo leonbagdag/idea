@@ -6,7 +6,7 @@ import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import Link from "@material-ui/core/Link";
 import { makeStyles } from "@material-ui/core/styles";
-import { fontSize } from "@material-ui/system";
+
 
 
 const useStyles = makeStyles(theme => ({
@@ -25,7 +25,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-export default function NavBar() {
+const NavBar = () => {
   const classes = useStyles();
 
   return (
@@ -92,3 +92,6 @@ export default function NavBar() {
     </React.Fragment>
   );
 }
+
+export default NavBar
+

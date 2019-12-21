@@ -1,18 +1,15 @@
-import React, { Fragment } from "react";
+
+import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
-import CardActionArea from "@material-ui/core/CardActionArea";
-import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
-import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
-import CssBaseline from "@material-ui/core/CssBaseline";
 import TextField from "@material-ui/core/TextField";
 import InputLabel from "@material-ui/core/InputLabel";
 import MenuItem from "@material-ui/core/MenuItem";
-import FormHelperText from "@material-ui/core/FormHelperText";
+
 import FormControl from "@material-ui/core/FormControl";
 import Select from "@material-ui/core/Select";
 
@@ -45,7 +42,6 @@ const EditProduct = () => {
         marginTop: 50
       }}
     >
-      {/* <CssBaseline/> */}
       <grid sm={12}>
         <Typography component="h1" variant="h4">
           Edit Product
@@ -59,12 +55,6 @@ const EditProduct = () => {
           padding: 30
         }}
       >
-        {/* <CardMedia
-            className={classes.media}
-            image="/static/images/cards/contemplative-reptile.jpg"
-            title="Contemplative Reptile"
-          /> */}
-
         <CardContent
           style={{
             padding: 10
@@ -126,9 +116,6 @@ const EditProduct = () => {
                 fullWidth
                 labelId="demo-simple-select-outlined-label"
                 id="demo-simple-select-outlined"
-                // value={age}
-                // onChange={handleChange}
-                // labelWidth={labelWidth}
               >
                 <MenuItem value="">
                   <em>None</em>
