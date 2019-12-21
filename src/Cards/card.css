@@ -1,6 +1,6 @@
 .button {
     size: 50cm;
     font-size: 20cm;
-    font-style: italic;
-    color: rgb(150, 36, 36);
+    font-style:bold;
+    color: rgb(36, 150, 51);
 }
