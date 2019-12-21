@@ -1,15 +1,17 @@
 import React from 'react';
-
-import './App.css';
+import {start} from './global/axiosInterceptor';
 import SignIn from './modules/signin/SignIn';
-import Checkout from './modules/checkout/Checkout';
+import SignUp from './modules/signup/SignUp';
+import NavBar from './modules/navbar/NavBar';
+import Home from './modules/home/Home';
+import EditProduct from './modules/admin/editproduct/EditProduct';
 
-
+start();
 const App = () =>  
 {
   return (
       <div>
-        <Checkout />
+         <NavBar />
       </div>
   );
 }
