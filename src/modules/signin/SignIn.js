@@ -9,6 +9,7 @@ import Typography from "@material-ui/core/Typography";
 import Link from "@material-ui/core/Link";
 import Card from "@material-ui/core/Card";
 
+
 const SignIn = () => {
   const [user, setUser] = useState({
     email: "",
@@ -23,13 +24,16 @@ const SignIn = () => {
   };
   return (
     <Container component="main" maxWidth="xs">
-      <div className="SignIn-Form">
+
+    <div className="SignIn-Form">
+
         <img
           src="https://www.onlinelogomaker.com/blog/wp-content/uploads/2017/06/shopping-online.jpg"
           alt="cart"
           width="400"
           max-height="70"
         ></img>
+
         <Card
         sm={12}
         style={{
@@ -43,6 +47,7 @@ const SignIn = () => {
             padding: 10
           }}
         >
+
         <Typography component="h1" variant="h4">
           Sign in
         </Typography>
@@ -91,6 +96,7 @@ const SignIn = () => {
             </Grid>
           </Grid>
         </form>
+
         </CardContent>
         </Card>
       </div>

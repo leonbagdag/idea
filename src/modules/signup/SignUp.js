@@ -1,9 +1,11 @@
+
 import React, { useState } from "react";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import Grid from "@material-ui/core/Grid";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
+
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 import Link from "@material-ui/core/Link";
@@ -27,12 +29,14 @@ const SignUp = () => {
   return (
     <Container component="main" maxWidth="xs">
       <div className="SignUp-Form" style={{marginTop:0}}>
+
         <img
           src="https://www.onlinelogomaker.com/blog/wp-content/uploads/2017/06/shopping-online.jpg"
           alt="cart"
           width="400"
           max-height="70"
         ></img>
+
           <Card
         sm={12}
         style={{
@@ -126,6 +130,7 @@ const SignUp = () => {
         </form>
         </CardContent>
         </Card>
+
       </div>
     </Container>
   );

@@ -8,6 +8,7 @@ import Link from "@material-ui/core/Link";
 import { makeStyles } from "@material-ui/core/styles";
 
 
+
 const useStyles = makeStyles(theme => ({
 
   appBar: {
@@ -25,7 +26,6 @@ const useStyles = makeStyles(theme => ({
 }));
 
 const NavBar = () => {
-
   const classes = useStyles();
 
   return (
@@ -94,3 +94,4 @@ const NavBar = () => {
 }
 
 export default NavBar
+
